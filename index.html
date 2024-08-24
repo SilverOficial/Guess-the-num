@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Offside&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number | @ijsilver</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="title">
+        <h1>GUESS THE NUM!</h1>
+    </div>
+    <div class="container">
+        <h3>I'm thinking a number between 1 and 100.</h3>
+        <h3>Can you guess it?</h3>
+
+        <input type="text" placeholder="NUM" 
+        id="guess"><br>
+
+        <button onclick="play()" id="my_btn">GUESS</button>
+
+        <p id="message1">No. Of Guesses: 0</p>
+        <p id="message2">Guessed Numbers are: None</p>
+        <p id="message3"></p>
+    </div>
+    <div class="description">
+        <h3>Challenge your intuition and become a master guesser!</h3>
+        <p>Do you consider yourself a good guesser? Here's your chance to prove it. 
+        I've thought of a number between <strong>1 and 100</strong>, and your task is to find out what it is. 
+        With each attempt, you will receive clues as to whether your number is too high or too low. Can you guess it in less than 10 attempts? 
+        Test yourself and challenge your limits!</p>
+        <p id="p2">This game will not only test your deduction skills, but will also keep you hooked as you get closer and closer to the correct answer. Every attempt brings you one step closer to victory! Do you have what it takes to win?</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
